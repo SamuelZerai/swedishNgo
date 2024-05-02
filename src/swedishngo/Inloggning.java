@@ -44,6 +44,13 @@ public class Inloggning extends javax.swing.JFrame {
 
         lblLosenord.setText("Lösenord");
 
+        tfEpost.setText("maria.g@example.com");
+        tfEpost.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfEpostActionPerformed(evt);
+            }
+        });
+
         lblFelmeddelande.setForeground(new java.awt.Color(255, 51, 51));
         lblFelmeddelande.setText("felaktig epost eller lösenord");
 
@@ -120,6 +127,10 @@ public class Inloggning extends javax.swing.JFrame {
             System.out.println(ex.getMessage());
         }
     }//GEN-LAST:event_btnLoggaInActionPerformed
+
+    private void tfEpostActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfEpostActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfEpostActionPerformed
 
     /**
      * @param args the command line arguments
