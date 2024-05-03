@@ -34,29 +34,78 @@ public class Meny extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblinloggadAnvandare = new javax.swing.JLabel();
+        btnAndraAdminInfo = new javax.swing.JButton();
+        btnSeProjekt = new javax.swing.JButton();
+        btnSeAvdelningar = new javax.swing.JButton();
+        btnSeLand = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        btnAndraAdminInfo.setText("Lägg till eller ta bort anställd");
+        btnAndraAdminInfo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAndraAdminInfoActionPerformed(evt);
+            }
+        });
+
+        btnSeProjekt.setText("Se projekt");
+        btnSeProjekt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSeProjektActionPerformed(evt);
+            }
+        });
+
+        btnSeAvdelningar.setText("Se avdelningar");
+
+        btnSeLand.setText("Se länder");
+        btnSeLand.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSeLandActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(86, 86, 86)
-                .addComponent(lblinloggadAnvandare, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(112, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(btnAndraAdminInfo)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnSeProjekt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnSeLand, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnSeAvdelningar, javax.swing.GroupLayout.DEFAULT_SIZE, 187, Short.MAX_VALUE))
+                .addGap(25, 25, 25))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(72, 72, 72)
-                .addComponent(lblinloggadAnvandare, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(204, Short.MAX_VALUE))
+                .addGap(48, 48, 48)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnAndraAdminInfo, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnSeProjekt))
+                .addGap(18, 18, 18)
+                .addComponent(btnSeAvdelningar)
+                .addGap(18, 18, 18)
+                .addComponent(btnSeLand)
+                .addContainerGap(188, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnAndraAdminInfoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAndraAdminInfoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnAndraAdminInfoActionPerformed
+
+    private void btnSeProjektActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSeProjektActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSeProjektActionPerformed
+
+    private void btnSeLandActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSeLandActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSeLandActionPerformed
 
     /**
      * @param args the command line arguments
@@ -94,6 +143,9 @@ public class Meny extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel lblinloggadAnvandare;
+    private javax.swing.JButton btnAndraAdminInfo;
+    private javax.swing.JButton btnSeAvdelningar;
+    private javax.swing.JButton btnSeLand;
+    private javax.swing.JButton btnSeProjekt;
     // End of variables declaration//GEN-END:variables
 }

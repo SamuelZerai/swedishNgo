@@ -51,6 +51,8 @@ public class Inloggning extends javax.swing.JFrame {
             }
         });
 
+        tfLosenord.setText("password123");
+
         lblFelmeddelande.setForeground(new java.awt.Color(255, 51, 51));
         lblFelmeddelande.setText("felaktig epost eller lösenord");
 

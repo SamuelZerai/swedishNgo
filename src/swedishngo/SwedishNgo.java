@@ -22,7 +22,7 @@ public class SwedishNgo {
     public static void main(String[] args) {
         
         try{
-            idb = new InfDB("ngo_2024", "3306", "root", "Adelinje123.");
+            idb = new InfDB("ngo_2024", "3306", "dbAdmin2024", "dbAdmin2024PW");
             new Inloggning(idb).setVisible(true);
             System.out.println("funkar");
             
