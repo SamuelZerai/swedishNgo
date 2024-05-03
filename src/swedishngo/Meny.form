@@ -24,64 +24,24 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-              <Component id="btnAndraAdminInfo" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="86" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="btnSeProjekt" max="32767" attributes="0"/>
-                  <Component id="btnSeLand" max="32767" attributes="0"/>
-                  <Component id="btnSeAvdelningar" alignment="0" pref="187" max="32767" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+              <Component id="lblinloggadAnvandare" min="-2" pref="202" max="-2" attributes="0"/>
+              <EmptySpace pref="116" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnAndraAdminInfo" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                  <Component id="btnSeProjekt" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnSeAvdelningar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnSeLand" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="188" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="lblinloggadAnvandare" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace pref="233" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnAndraAdminInfo">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="L&#xe4;gg till eller ta bort anst&#xe4;lld"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAndraAdminInfoActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnSeProjekt">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Se projekt"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSeProjektActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnSeAvdelningar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Se avdelningar"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnSeLand">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Se l&#xe4;nder"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSeLandActionPerformed"/>
-      </Events>
+    <Component class="javax.swing.JLabel" name="lblinloggadAnvandare">
     </Component>
   </SubComponents>
 </Form>
